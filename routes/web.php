@@ -7,7 +7,7 @@ Route::get('/', function () {
 });
 
 Route::get('/About', function () {
-    return view('About',['title'=> 'About']);
+    return view('About',['nama'=>'Vano','title'=> 'About']);
 });
 
 Route::get('/Blog', function () {
